@@ -2,7 +2,7 @@
 
 
 '#####
-Public Sub RegEx (strPattern as String, Optional blnIgnoreCase as Boolean, Optional blnGlobal as Boolean) as Variant
+Public Sub RegEx (strPattern as String, Optional blnIgnoreCase as Boolean, Optional blnGlobal as Boolean) as Variant()
 
 
 '##### References – VBAProject - RegExp Object #####
