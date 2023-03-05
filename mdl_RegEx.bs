@@ -2,10 +2,10 @@
 
 
 '#####
-Public Sub RegEx () as Variant
+Public Sub RegEx (strPattern as String, Optional blnIgnoreCase as Boolean, Optional blnGlobal as Boolean) as Variant
 
 
-'##### References – VBAProject #####
+'##### References – VBAProject - RegExp Object #####
 Dim objRegEx As Object
 Set objRegEx = CreateObject(“VBScript.RegExp”)
 
@@ -17,10 +17,13 @@ Set objRegEx = CreateObject(“VBScript.RegExp”)
 
 '##### RegEx Properties #####
 With objRegEx
-
-
-
+  .Pattern = strPattern
+  .IgnoreCase = blnIgnoreCase
+  .Global = blnGlobal
 End With
+
+
+'##### RegEx Methods #####
 
 
 
