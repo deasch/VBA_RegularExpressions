@@ -2,6 +2,7 @@
 
 
 '#####
+Public Sub RegEx () as Variant
 '##### References – VBAProject #####
 Dim objRegEx As Object
 Set objRegEx = CreateObject(“VBScript.RegExp”)
@@ -14,3 +15,7 @@ Set objRegEx = CreateObject(“VBScript.RegExp”)
 
 '##### RegEx Properties #####
 
+
+
+'#####
+End Sub
