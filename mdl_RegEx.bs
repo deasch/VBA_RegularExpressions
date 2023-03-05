@@ -2,4 +2,6 @@
 
 
 '#####
-
+'##### References – VBAProject #####
+Dim regexObject As Object
+Set regexObject = CreateObject(“VBScript.RegExp”)
