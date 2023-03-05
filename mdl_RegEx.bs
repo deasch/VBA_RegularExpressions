@@ -27,5 +27,20 @@ End With
 
 
 
+
+'##### RegEx Matches Collection Object #####
+
+
+
+'##### RegEx Match Object #####
+FirstIndex
+Length
+Value
+
+
+
+
+
+
 '#####
 End Sub
