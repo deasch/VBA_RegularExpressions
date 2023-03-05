@@ -3,5 +3,14 @@
 
 '#####
 '##### References – VBAProject #####
-Dim regexObject As Object
-Set regexObject = CreateObject(“VBScript.RegExp”)
+Dim objRegEx As Object
+Set objRegEx = CreateObject(“VBScript.RegExp”)
+
+'Optional:
+'VBA IDE, select Tools –> References, then select Microsoft VBScript Regular Expressions 5.5
+Dim objRegEx As RegExp
+Set objRegEx = New RegExp
+
+
+'##### RegEx Properties #####
+
