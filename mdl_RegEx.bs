@@ -8,8 +8,8 @@ Set objRegEx = CreateObject(“VBScript.RegExp”)
 
 'Optional:
 'VBA IDE, select Tools –> References, then select Microsoft VBScript Regular Expressions 5.5
-Dim objRegEx As RegExp
-Set objRegEx = New RegExp
+'Dim objRegEx As RegExp
+'Set objRegEx = New RegExp
 
 
 '##### RegEx Properties #####
